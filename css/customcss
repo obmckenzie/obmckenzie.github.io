@@ -1,0 +1,16 @@
+/*
+* 
+* File Created: Allison Lins 1/31/2017
+* Last update: 2/1/2017
+*
+*/
+
+.top {background-color:#422AFF
+}
+
+.hello {background: url('/images/ajgkkoxtis-tran-mau-tri-tam.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
