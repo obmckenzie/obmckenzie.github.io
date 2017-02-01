@@ -5,7 +5,8 @@
 *
 */
 
-.top {background-color:#422AFF
+.top {background-color:#422AFF;
+  height:500px;
 }
 
 .hello {background: url('/images/ajgkkoxtis-tran-mau-tri-tam.jpg') no-repeat center center fixed; 
@@ -13,4 +14,17 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:500px;
+}
+
+.who {background-color:#422AFF;
+  height:500px;
+}
+
+.hello {background: url('/images/5ntkpxqt54y-sai-kiran-anagani.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:500px;
 }
