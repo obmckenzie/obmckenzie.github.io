@@ -15,3 +15,9 @@ Most photos are from CC websites like http://deathtothestockphoto.com/, https://
 <li>add meat to the content areas</li>
 <li>:meat:</li>
 </ul>
+
+<br><br>
+Reference urls:<br>
+https://www.templatemonster.com/blog/jquery-carousel-plugins/ <br>
+http://bxslider.com/ <br>
+http://css-tricks.github.io/AnythingSlider/#&panel1-2&panel2-4
