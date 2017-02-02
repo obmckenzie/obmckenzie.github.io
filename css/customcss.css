@@ -1,15 +1,12 @@
-/*
+a/*
 * 
 * File Created: Allison Lins 1/31/2017
 * Last update: 2/1/2017
 *
 */
 
-.who {background: url('/images/5f01b521.png') repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.who, .media {background: url('/images/5f01b521.png') repeat;
+  background-size: 50px 50px;
   height:500px;
 }
 
