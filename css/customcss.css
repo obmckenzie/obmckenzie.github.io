@@ -51,7 +51,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
   hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
   hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px       
 );
-  height:500px;
+  height:100%;
 }
 
 .what {background: url('/images/startup-website-layout-wireframes-ideas-sketched-on-paper-picjumbo-com - Copy.jpg') no-repeat center center fixed; 
