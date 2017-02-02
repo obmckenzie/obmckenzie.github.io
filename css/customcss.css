@@ -52,6 +52,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
   hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px       
 );
   height:100%;
+  padding-bottom:20px;
 }
 
 .what {background: url('/images/startup-website-layout-wireframes-ideas-sketched-on-paper-picjumbo-com - Copy.jpg') no-repeat center center fixed; 
