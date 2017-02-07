@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Allison Lins, Front-End Developer and Avid Gamer</title>
+  <meta name="description" content="Experienced front end web developer with more than 13 years in marketing and SEO-optimized e-commerce systems. ">
+  <meta name="author" content="Allison Lins">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/customcss.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+ <!-- jQuery Slider bxslider custom
+---------------------------------------------------- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/bslider/jquery.bxslider.min.js"></script>
+<link href="/bslider/jquery.bxslider.css" rel="stylesheet" />
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   
+  <div class="top">
+	<div class="container">
+		<div class="row">
+	<div style="width:25%;float:right"><img src="/images/teacups.jpg" style="border: 1px solid #333;width:100%;">		</div>		
+		<div style="width:75%; float;left;">	<h1 style="font-family: 'Alex Brush', cursive;">Hello! </h1>
+			
+			<h2> I'm Allison "Allie" Lins, welcome to my play space.</h2>
+			
+			
+  </div>
+ <div style="padding-top:12%"> <ul>
+			<li> <a href="https://obmckenzie.github.io/#hello">hello</a></li>
+			<li><a href="https://obmckenzie.github.io/#who">who am I</a></li>
+			<li><a href="https://obmckenzie.github.io/#what">'folio</a></li>
+			<li><a href="https://obmckenzie.github.io/#media">follow</a></li>
+      <li><a href="https://obmckenzie.github.io/case studies/casestudies.html">follow</a></li>
+			<li><a href="https://obmckenzie.github.io/Allison%20Lins%20v3.docx">resume</a></li>
+			</ul>
+  </div>
+		</div>
+	</div>
+ </div>
+  <div class="hello">
+	<div class="container">
+		<div class="row">
+    <h2>Case Studies..</h2>
+    <p>There is my repository of case studies. Sometimes, when I'm not out having crazy adventures or playing games, I will come acroos something on the internet that bothers me from a UX/UI/Design standpoint. I like to make note of them and try and think of how I would improve said issue. Usually it's just something I do in Photoshop and let go. Sometimes, if its something for a current job, I'll do more.</p>
+    <h3>Case #1:</h3>
+    <p><u>Target Optical's Eye Exam System</u><br> Issue: When I'm looking for eye exams I'm not always the most loyal person. We have a few near us and I'm more interested in booking an appointment for when I have time. I was frustrated that they system wouldn't let me see available times for all the local doctors. I had to navagate to each location to see the times. <br> Solution: Create a system that would allow me to see all the available times for my doctors within a set range.<br> <a href="#">See the designs</a>
+    </p>
+		</div>
+	</div>
+  </div>
+  <div class="media">
+	<div class="container">
+		<div class="row">
+
+			
+		</div>
+	</div>
+  </div>
+  <div class="what">
+	<div class="container">
+		<div class="row">
+				</div>
+	</div>
+  </div>
+ <div class="media">
+	<div class="container">
+		<div class="row">
+	
+
+		</div>
+	</div>
+  </div>
+
+
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+</body>
+</html>
