@@ -21,6 +21,15 @@ a/*
 	padding:0 0 100px 0 ;
 }
 
+.case {background: url('/images/5ntkpxqt54y-sai-kiran-anagani.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+	padding:0 0 100px 0 ;
+}
+
 .top {background-color: hsl(34, 53%, 82%);
 background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,                  
   hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
