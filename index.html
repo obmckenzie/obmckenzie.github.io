@@ -28,10 +28,38 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+<style>
+body {
+    padding-top: 40px;
+}
 
+header {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -40px;
+}
+</style>
 </head>
 <body>
-
+<header class="nav-down">
+    <ul>
+		<li> <a href="#">about me</a></li>
+		<li><a href="#who">adventures</a></li>
+		<li><a href="#what">previous work</a></li>
+		<li><a href="#media">find me</a></li>
+		<li><a href="/CS/landing.html">case studies</a></li>
+		<li> <a href="/CS/toeyeexams.html">TargetOptical.com Eye Exam Flow</a></li>
+		<li><a href="/CS/toheader.html">TargetOptical.com Header/Footer</a></li>
+	</ul>
+</header>
+<main>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  <div class="container">
@@ -41,18 +69,15 @@
 					
 		<h2> I'm Allie Lins </h2><p>I'm a Front End Web Developer, <br> which is a fancy way of saying I play on the internet. <span style="font-size:6pt;">I also like to think I'm funny</span></p>
 
-		  <ul id="accordion">
+		<ul>
 			<li> <a href="#">about me</a></li>
 			<li><a href="#who">adventures</a></li>
 			<li><a href="#what">previous work</a></li>
 			<li><a href="#media">find me</a></li>
-			<li><a href="/CS/landing.html">case studies</a>
-				<ul>
-					<li> <a href="/CS/toeyeexams.html">TargetOptical.com Eye Exam Flow</a></li>
-					<li><a href="/CS/toheader.html">TargetOptical.com Header/Footer</a></li>
-					</ul>
-			</li>
-		  </ul>
+			<li><a href="/CS/landing.html">case studies</a></li>
+			<li> <a href="/CS/toeyeexams.html">TargetOptical.com Eye Exam Flow</a></li>
+			<li><a href="/CS/toheader.html">TargetOptical.com Header/Footer</a></li>
+		</ul>
 
 	</div>
 </div>
@@ -108,24 +133,57 @@
 	  <div class="one-half column value">
 		<h4>Music</h4>
 		<iframe width="50%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/33805608&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-		<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:1228502579&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+				<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:1228502579&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 	  </div>
+
     </div>
-</div>
+  </div>
   
 
-<script>
-	jQuery(function ($) {
-    $('#accordion li').hover(function () {
-        $(this).find('ul').stop(true, true).slideDown()
-    }, function () {
-        $(this).find('ul').stop(true, true).slideUp()
-    }).find('ul').hide()
 
-})
+<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
 </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</main>
 </body>
 </html>
