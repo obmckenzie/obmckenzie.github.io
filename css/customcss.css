@@ -5,14 +5,14 @@ a/*
 *
 */
 
-#who {background-image: url('images/5f01b521.png');
+.who {background-image: url('images/5f01b521.png');
 	
   background-size: 150px 100px;
   height:100%;
   padding:0 0 100px 0;
 }
 
-#hello {background: url('/images/njdwuhmay8a-aleks-dorohovich - Copy.jpg') no-repeat center center fixed; 
+.hello {background: url('/images/njdwuhmay8a-aleks-dorohovich - Copy.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +21,7 @@ a/*
 	padding:0 0 100px 0 ;
 }
 
-#case {background: url('/images/5ntkpxqt54y-sai-kiran-anagani.jpg') no-repeat center center fixed; 
+.case {background: url('/images/5ntkpxqt54y-sai-kiran-anagani.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,7 +30,7 @@ a/*
 	padding:0 0 100px 0 ;
 }
 
-#top {background-color: hsl(34, 53%, 82%);
+.top {background-color: hsl(34, 53%, 82%);
 background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,                  
   hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
   hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
@@ -49,7 +49,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 	padding:0 0 100px 0 ;
 }
 
-#media {background-color: hsl(34, 53%, 82%);
+.media {background-color: hsl(34, 53%, 82%);
 background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,                  
   hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
   hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
@@ -68,7 +68,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 	padding:0 0 100px 0 ;
 }
 
-#what {background: url('/images/startup-website-layout-wireframes-ideas-sketched-on-paper-picjumbo-com - Copy.jpg') no-repeat center center fixed; 
+.what {background: url('/images/startup-website-layout-wireframes-ideas-sketched-on-paper-picjumbo-com - Copy.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
