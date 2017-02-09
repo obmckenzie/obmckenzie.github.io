@@ -47,18 +47,24 @@
 	<div style="width:25%;float:right"><img src="/images/teacups.jpg" style="border: 1px solid #333;width:100%;">		</div>		
 		<div style="width:75%; float;left;">	<h1 style="font-family: 'Alex Brush', cursive;font-size:75px">Hello! </h1>
 			
-			<h2> I'm Allie Lins </h2><p style="width:60%">This is my webpage, I make things on the internets and sometimes put them here. <span style="font-size:8pt;">I also like to think I'm funny</span></p>
+			<h2> I'm Allie Lins </h2><p>I'm a Front End Web Developer, <br> which is a fancy way of saying I play on the internet. <span style="font-size:6pt;">I also like to think I'm funny</span></p>
 			
 			
   </div>
- <div style="padding-top:12%"> <ul>
-			<li> <a href="#hello">'allo</a></li>
-			<li><a href="#who">intro</a></li>
-			<li><a href="#what">samples</a></li>
-			<li><a href="#media">follow</a></li>
-		        <li><a href="/CS/landing.html">case studies</a></li>
-			<li><a href="Allison Lins v3.docx">resume</a></li>
+ <div> <ul id="accordion">
+      <li> <a href="#">about me</a></li>
+      <li><a href="#who">adventures</a></li>
+			<li><a href="#what">previous work</a></li>
+      <li><a href="#media">find me</a></li>
+			<li><a href="/CS/landing.html">case studies</a>
+<ul>
+			<li> <a href="/CS/toeyeexams.html">TargetOptical.com Eye Exam Flow</a></li>
+			<li><a href="/CS/toheader.html">TargetOptical.com Header/Footer</a></li>
+
 			</ul>
+       
+    </li>
+</ul>
   </div>
 		</div>
 	</div>
@@ -66,19 +72,17 @@
   <div class="hello" id="hello">
 	<div class="container">
 		<div class="row">
-			<H2>Who am I?</H2>
-			
-			<p>This is my summary...Experienced front end web developer with more than 13 years in marketing and SEO-optimized e-commerce systems.  Extensive knowledge of modern front-end frameworks and CMS, with a talent for bridging the gap between user experience and marketing objectives.  Strong ability to drive new revenue streams and generate page views through SEO initiatives, marketing campaigns, social media campaigns, and omnichannel experiences.</p>
-			<p>That's really just a fancy and formal way to say that I like to make the internet happen <img src="/images/party-popper.png" style="width:50px;">. I like to be the jack of all trades, I fill the roles that are needed to complete a project. My skills are developed by situations and often trial by fire type of events. It's one of my favorite thigs about the jobs I take, every day is adventure, especially when you solve that issue you've been struggling with for hours. No greater feeling then the little dance you do after you solve a really tough problem. </p>
-			<p>Beyond work I like to play games, video, board, mobile ??. I've played WoW (World of Warcraft) sicne it's release and currently co-lead a small group of raiders to glory!  I enjoy watching anime and can get really invested in the stories ??. I'm often listening to EDM or K-Pop or Babymetal ????. If you ask I might even do one of those cute j-pop group dances ??. I also enjoy long rides on motorcycles ???. </p>
+			<H2>About Me</H2>
+			<p>At work I've done everything from dabbling in graphic design, to content management, to content developemnt, to being the SEO expert. I'm passionate about my work and I love to learn new things and apply those skills. There is a fantastic feeling when you solve a problem, I'm addicted to that. I'm currently working as a Web Developer for <a href="http://www.luxottica.com">Luxottica</a> / <a href="www.targetoptical.com">Target Optical</a>.</p>
+			<p>Outside of work I love love to play, video to board to card. I'm a Co-Guild Leader in <a href="www.worldofwarcraft.com">World of Warcraft</a> and have been involved in the game for as long as it's been out. I'm also a board game enthusiast, theres nothing better then sitting down with a glass of wine, some friends, and a great bunch of board games. Got some time? Let's play some Magic. I'd love to get into that whole board game bar thing but I really like my day job. Feel free to ask me about my lastest motorcycle trip, or the time I spend several months riding around for Victory Motorcycles. </p>
 		</div>
 	</div>
   </div>
   <div class="media" id="who">
 	<div class="container">
 		<div class="row">
-			<H2>What do I do for fun?</H2>
-			<p>I like to think I'm an easy going and hard working gal. I like to have fun and go on adventures. They are not always crazy exciting ones but anything that makes a memory is an adventure to me. Feel free to check out my adventures via some of the photosharing sites that I've belonged too over the years.</p>
+			<H2>Adventures</H2>
+			<p>Photostreams from some of my more memorable and epic adventures:</p>
 			<br><a data-flickr-embed="true"  href="https://www.flickr.com/photos/allielins/albums/72157629668268264" title="Crazy Horse - True American Road Trip - Allison Lins - 2010"><img src="https://c1.staticflickr.com/8/7248/7153786629_83d1beb4bd_z.jpg"  height="240" alt="Crazy Horse - True American Road Trip - Allison Lins - 2010"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 			<a data-flickr-embed="true"  href="https://www.flickr.com/photos/allielins/albums/72157629990240497" title="True American Road Tip - Sturgis - Allison Lins"><img src="https://c1.staticflickr.com/8/7257/7153765181_ea52a6ab89_z.jpg"  height="240" alt="True American Road Tip - Sturgis - Allison Lins"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 			<a data-flickr-embed="true"  href="https://www.flickr.com/photos/allielins/albums/72157629984064867" title="True American Road Trip - Yellowstone - Allison Lins"><img src="https://c1.staticflickr.com/9/8162/7151185649_93a469fd06_z.jpg" height="240" alt="True American Road Trip - Yellowstone - Allison Lins"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
@@ -142,6 +146,16 @@ $(document).ready(function(){
 
   });
 });
+</script>
+<script>
+	jQuery(function ($) {
+    $('#accordion li').hover(function () {
+        $(this).find('ul').stop(true, true).slideDown()
+    }, function () {
+        $(this).find('ul').stop(true, true).slideUp()
+    }).find('ul').hide()
+
+})
 </script>
   
 <!-- End Document
