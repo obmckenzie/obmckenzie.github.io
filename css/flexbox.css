@@ -228,6 +228,9 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px,
   height:100%;
 	padding:0 0 100px 0 ;
   font-family: Raleway, sans-serif;
+  max-width:95%;
+  margin: 0 5%;
+    
 }
 
 #quick{
@@ -250,3 +253,5 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px,
 }
 
 a{color:#140706;}
+
+p{font-family:arial}
