@@ -1,30 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Allison Lins, Front-End Developer and Avid Gamer</title>
+  <meta name="description" content="Experienced front end web developer with more than 13 years in marketing and SEO-optimized e-commerce systems. ">
+  <meta name="author" content="Allison Lins">
 
-<!-- jQuery library (served from Google) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="/bslider/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="/bslider/jquery.bxslider.css" rel="stylesheet" />
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+   
+   <style>
+   .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+   </style>
+  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  
+  
+  <!-- Script Calls
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+	
+	
 </head>
-
-
 <body>
-<ul class="bxslider">
-  <li><img src="/images/5f01b521.png" /> <h3>HI</h3></li>
-  <li><img src="/images/P8150795.jpg" /><p>text</p></li>
-  <li><img src="/images/5f01b521.png" /></li>
-  <li><img src="/images/P8150795.jpg" /></li>
+<header class="nav-down">
+    <ul>
+		<li> <a href="#">about me</a></li>
+		<li><a href="#who">adventures</a></li>
+		<li><a href="#what">previous work</a></li>
+		<li><a href="#media">find me</a></li>
+		<li><a href="/CS/landing.html">case studies</a></li>
+		/*<li> <a href="/CS/toeyeexams.html">TargetOptical.com Eye Exam Flow</a></li>*/
+		/*<li><a href="/CS/toheader.html">TargetOptical.com Header/Footer</a></li>*/
+	</ul>
+</header>
+<main>
+
+
+
+<ul class="flex-container">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
 </ul>
 
 
+
+
+
 <script>
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
 });
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
 </script>
+
+
+</main>
 </body>
 </html>
