@@ -1,0 +1,98 @@
+/* Flexybox- Sexy box*/
+  .flex-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    }
+
+.flex-item-about:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item-about:nth-child(2) {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    }
+.flex-container-advent {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    }
+
+.flex-item-advent:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    }
+
+
+.flex-container-advent-img {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    }
+
+.flex-item-advent-img:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    }
+
+.flex-item-advent-img:nth-child(2) {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item-advent-img:nth-child(3) {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.flex-item-advent-img:nth-child(4) {
+    order: 4;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+	
+	   .flex-container-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item-nav {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
