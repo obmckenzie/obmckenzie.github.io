@@ -57,7 +57,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
   height:100%;
 	padding:0 0 100px 0 ; 
 	opacity: .4; 
-	z-index: 4;
+	z-index: -1;
 	color:#cd0000;
  
 }
