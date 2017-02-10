@@ -2,21 +2,11 @@
 <html lang="en">
 <head>
 
-  <!-- Basic Page Needs
+	
+  
+  <!-- Script Calls
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Allison Lins, Front-End Developer and Avid Gamer</title>
-  <meta name="description" content="Experienced front end web developer with more than 13 years in marketing and SEO-optimized e-commerce systems. ">
-  <meta name="author" content="Allison Lins">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -54,32 +44,15 @@
    </style>
   
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
+
   
-  
-  <!-- Script Calls
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 	
 	
 </head>
 <body>
-<header class="nav-down">
-    <ul>
-		<li> <a href="#">about me</a></li>
-		<li><a href="#who">adventures</a></li>
-		<li><a href="#what">previous work</a></li>
-		<li><a href="#media">find me</a></li>
-		<li><a href="/CS/landing.html">case studies</a></li>
-		/*<li> <a href="/CS/toeyeexams.html">TargetOptical.com Eye Exam Flow</a></li>*/
-		/*<li><a href="/CS/toheader.html">TargetOptical.com Header/Footer</a></li>*/
-	</ul>
-</header>
-<main>
+
 
 
 
@@ -94,50 +67,5 @@
 
 
 
-
-
-<script>
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('header').outerHeight();
-
-$(window).scroll(function(event){
-    didScroll = true;
-});
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-    
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-    
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('header').removeClass('nav-down').addClass('nav-up');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('nav-up').addClass('nav-down');
-        }
-    }
-    
-    lastScrollTop = st;
-}
-</script>
-
-
-</main>
 </body>
 </html>
