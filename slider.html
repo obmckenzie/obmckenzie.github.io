@@ -13,10 +13,11 @@
 
    
    <style>
-   .flex-container {
-  padding: 0;
-  margin: 0;
+.navigation {
   list-style: none;
+  margin: 0; 
+  
+  background: hsl(329, 46%, 25%);
   
   display: -webkit-box;
   display: -moz-box;
@@ -25,21 +26,45 @@
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #fff;
+  font-weight: 600
+}
+
+.navigation a:hover {
+  background: hsl(329, 46%, 55%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
   
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
 }
    </style>
   
@@ -56,15 +81,12 @@
 
 
 
-<ul class="flex-container">
-  <li class="flex-item">1</li>
-  <li class="flex-item">2</li>
-  <li class="flex-item">3</li>
-  <li class="flex-item">4</li>
-  <li class="flex-item">5</li>
-  <li class="flex-item">6</li>
+<ul class="navigation">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Products</a></li>
+  <li><a href="#">Contact</a></li>
 </ul>
-
 
 
 </body>
