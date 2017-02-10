@@ -31,7 +31,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  /*max-width: 960px;*/
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -154,8 +154,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
   margin-top: 0;
-  -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;}
+  -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: #333;}
 
 
 /* Links
