@@ -1,77 +1,119 @@
+ 
 /* Flexybox- Sexy box*/
-  .flex-about {
+
+
+
+.flex-container-hello {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     align-items: center;
     }
 
-.flex-item-about:nth-child(1) {
+.flex-item-hello:nth-child(1) {
     order: 1;
     flex: 0 1 auto;
     align-self: auto;
+    }
+
+.flex-container-quick {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+
+.flex-item-quick:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: center;
+  width:45%;
+  text-align:center;
+    }
+
+.flex-container-quick2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  text-align:center;
+  
+  
+    }
+.flex-container-quick2 p{
+  width:55%;
+  padding-left:25%
+}
+
+.flex-container-quick2 img{
+  width:25px;
+  background-color:hsla(5, 53%, 63%, 0.9);
+  border-radius: 25%;
+  width: 75px;
+  padding:5%;}
+
+.flex-item-quick2:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: auto;
+  width:33%;
+    }
+
+.flex-item-quick2:nth-child(2) {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: auto;
+  width:33%;
+    }
+
+.flex-item-quick2:nth-child(3) {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: auto;
+  width:33%;
+  
+  
+
+    }
+
+  .flex-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+background:#fff}
+
+
+.flex-item-about:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: center;
     }
 
 .flex-item-about:nth-child(2) {
     order: 2;
     flex: 0 1 auto;
     align-self: flex-start;
-    }
-.flex-container-advent {
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-    }
 
-.flex-item-advent:nth-child(1) {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: flex-start;
     }
 
 
-.flex-container-advent-img {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    }
-
-.flex-item-advent-img:nth-child(1) {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: flex-start;
-    }
-
-.flex-item-advent-img:nth-child(2) {
-    order: 2;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
-
-.flex-item-advent-img:nth-child(3) {
-    order: 3;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
-
-.flex-item-advent-img:nth-child(4) {
-    order: 4;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
 	
-	   .flex-container-nav {
-  padding: 0;
-  margin: 0;
+/*Oh, what a pretty navagation*/
+
+	.navigation {
   list-style: none;
+  margin: 0; 
+  
+  background: hsla(5, 53%, 63%, 0.9);
   
   display: -webkit-box;
   display: -moz-box;
@@ -80,19 +122,117 @@
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
-.flex-item-nav {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  
-  line-height: 150px;
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
   color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
 }
+
+.navigation a:hover {
+  background: hsl(5, 53%, 40%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/* Navagation over*/
+
+
+/*  End Flexybox- Now to make it pretty!*/
+
+/*#who {background-image: url('/images/5f01b521.png');
+  background-size: 150px 100px;
+  height:100%;
+  padding:0 0 100px 0;
+	color:#000;
+}*/
+
+
+
+/*#hello {background: url('/images/njdwuhmay8a-aleks-dorohovich - Copy.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+	padding:0 0 100px 0 ;
+	color:#000;
+}*/
+#case {background: url('/images/5ntkpxqt54y-sai-kiran-anagani.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+	padding:0 0 100px 0 ;
+	color:#000;
+	background-color:#fff;
+}
+
+body {background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px,                  
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 68%, 0.5) 120px, hsla(197, 62%, 68%, 0.5) 140px       
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px, 
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 68%, 0.5) 140px, hsla(197, 62%, 68%, 0.5) 160px       
+);
+  height:100%;
+	padding:0 0 100px 0 ;
+  font-family: Raleway, sans-serif;
+}
+
+#quick{
+  background:	hsl(12, 10%, 95%);
+  
+  font-family: Raleway, sans-serif;
+  
+}
+
+
+
+
+#what {background: url('/images/startup-website-layout-wireframes-ideas-sketched-on-paper-picjumbo-com - Copy.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+	padding:0 0 100px 0 ;
+}
+
+a{color:#140706;}
