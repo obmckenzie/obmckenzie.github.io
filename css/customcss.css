@@ -48,7 +48,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 );
   height:100%;
 	padding:0 0 100px 0 ;  
- opacity: .4; 
+ 
 }
 
 #media {background-color: hsl(34, 53%, 82%);
@@ -82,7 +82,7 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 
 .row {
   padding:20px;
-	opacity: 1; 
+
   
 }
 .container {padding-top:5%;
