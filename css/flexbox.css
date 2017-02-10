@@ -10,6 +10,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+  
     }
 
 .flex-item-hello:nth-child(1) {
@@ -25,6 +26,11 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+   border-radius: 38px 38px 0px 0px;
+-moz-border-radius: 38px 38px 0px 0px;
+-webkit-border-radius: 38px 38px 0px 0px;
+
+  
     }
 
 .flex-item-quick:nth-child(1) {
@@ -43,6 +49,10 @@
     align-content: center;
     align-items: center;
   text-align:center;
+   border-radius: 0px 0px 38px 38px;
+-moz-border-radius: 0px 0px 38px 38px;
+-webkit-border-radius: 0px 0px 38px 38px;
+
   
   
     }
@@ -89,7 +99,11 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-background:#fff}
+background:#fff;
+ border-radius: 36px 0px 0px 38px;
+-moz-border-radius: 36px 0px 0px 38px;
+-webkit-border-radius: 36px 0px 0px 38px;
+border: 0px none ;}
 
 
 .flex-item-about:nth-child(1) {
@@ -219,9 +233,9 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px,
 #quick{
   background:	hsl(12, 10%, 95%);
   
-  font-family: Raleway, sans-serif;
-  
+  font-family: Raleway, sans-serif; 
 }
+
 
 
 
