@@ -109,7 +109,8 @@ border: 0px none ;}
 .flex-item-about:nth-child(1) {
     order: 1;
     flex: 0 1 auto;
-    align-self: center;
+    align-self: flex-start;
+  
     }
 
 .flex-item-about:nth-child(2) {
@@ -118,9 +119,21 @@ border: 0px none ;}
     align-self: flex-start;
 
     }
-.flex-about img{   border-radius: 0px 38px 38px 0px;
+
+#beartooth img{   border-radius: 0px 38px 38px 0px;
 -moz-border-radius: 0px 38px 38px 0px;
 -webkit-border-radius: 0px 38px 38px 0px;}
+
+.flex-about h2{
+padding-top:2% ;
+  font-size:29pt;
+  
+}
+
+.flex-about p{
+  font-size:18px;
+  width:85%;
+}
 
 
 	
