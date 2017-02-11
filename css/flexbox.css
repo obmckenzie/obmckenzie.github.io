@@ -100,9 +100,9 @@
     align-content: center;
     align-items: center;
 background:#fff;
- border-radius: 36px 0px 0px 38px;
--moz-border-radius: 36px 0px 0px 38px;
--webkit-border-radius: 36px 0px 0px 38px;
+ border-radius: 36px 36px 36px 38px;
+-moz-border-radius: 36px 36px 36px 38px;
+-webkit-border-radius: 36px 36px 36px 38px;
 border: 0px none ;}
 
 
@@ -118,6 +118,9 @@ border: 0px none ;}
     align-self: flex-start;
 
     }
+.flex-about img{   border-radius: 0px 38px 38px 0px;
+-moz-border-radius: 0px 38px 38px 0px;
+-webkit-border-radius: 0px 38px 38px 0px;}
 
 
 	
@@ -137,6 +140,8 @@ border: 0px none ;}
   
   -webkit-flex-flow: row wrap;
   justify-content: flex-end;
+    
+      
 }
 
 .navigation a {
