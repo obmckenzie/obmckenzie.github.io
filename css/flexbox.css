@@ -126,13 +126,14 @@ border: 0px none ;}
 
 .flex-about h2{
 padding-top:2% ;
-  font-size:29pt;
+  font-size:29px;
   
 }
 
 .flex-about p{
   font-size:18px;
   width:85%;
+	font-weight:200;
 }
 
 
