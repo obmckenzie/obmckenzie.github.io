@@ -1,4 +1,4 @@
- 
+ /*By Allie lins - Suprise at the end*/
 /* Flexybox- Sexy box*/
 
 
@@ -18,109 +18,152 @@
     flex: 0 1 auto;
     align-self: auto;
     }
-
-.flex-container-quick {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;  
-    }
-
-.flex-item-quick:nth-child(1) {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: center;
-  width:45%;
-  text-align:center;
-    }
-
-.flex-container-quick2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  text-align:center;
-    }
-
-.flex-container-quick2 p{
-  width:55%;
-  padding-left:25%
+	
+.hellooffer {
+    background: hsl(12, 10%, 95%);
+    box-sizing: border-box;
+    /*height: 40px;*/
+    width: 100%;
+    position: relative;
+    padding: 20px;
+   margin-top:50px !important;
 }
 
-.flex-container-quick2 img{
+.hellooffer:before, .hellooffer:after {
+    content: "";
+    background: hsl(12, 10%, 95%);
+    height: 50px;
+    transform: skewY(2deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.hellooffer:before{    
+    top: -20px;    
+}
+
+.hellooffer:after {
+    bottom: -20px;
+}
+
+
+
+.hellooffer{
+text-align:center;
+height:100%;
+}
+
+.helloofferinside{
+text-align:center;
+width:75%;
+margin-left:10%;
+}
+
+
+.offer {
+ width:100%;
+  background-color:#fff;
+  text-align:center;
+    }
+
+.offer p{
+  width:60%;
+  padding-left:25%;
+  text-align:left;;
+}
+
+.offer img{
   width:25px;
   background-color:hsla(5, 53%, 63%, 0.9);
   border-radius: 25%;
   width: 75px;
   padding:5%;}
 
-.flex-item-quick2:nth-child(1) {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: auto;
-  width:33%;
-    }
+.offer1, .offer2, .offer3 {width:33%; display:inline-block;vertical-align: top; }
 
-.flex-item-quick2:nth-child(2) {
-    order: 2;
-    flex: 0 1 auto;
-    align-self: auto;
-  width:33%;
-    }
-
-.flex-item-quick2:nth-child(3) {
-    order: 3;
-    flex: 0 1 auto;
-    align-self: auto;
-  width:33%;
-  
-  
-
-    }
-
-  .flex-about {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-background:#fff;
-
-border: 0px none ;}
-
-
-.flex-item-about:nth-child(1) {
-    order: 1;
-    flex: 0 1 auto;
-    align-self: flex-start;
-  
-    }
-
-.flex-item-about:nth-child(2) {
-    order: 2;
-    flex: 0 1 auto;
-    align-self: flex-start;
-
-    }
-
-.flex-about h2{
-padding-top:2% ;
-  font-size:29px;
-  
+@media screen and (min-width: 100px) and (max-width: 800px) {
+  .offer1, .offer2, .offer3 {width:100%; vertical-align: top; }
 }
 
-.flex-about p{
+.aboutcontain h2{
+padding-top:2% ;
+  font-size:29px;
+}
+
+.aboutcontain p{
   font-size:18px;
   width:85%;
 	font-weight:200;
 }
+
+
+@media screen and (min-width: 800px) {
+ .aboutcontain {
+    background: white;
+    box-sizing: border-box;
+    /*height: 40px;*/
+    width: 100%;
+    position: relative;
+    padding: 20px;
+   margin-top:40px !important;
+}
+
+.aboutcontain:before, .aboutcontain:after {
+    content: "";
+    background: white;
+    height: 50px;
+    transform: skewY(2deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.aboutcontain:before{    
+    top: -20px;    
+}
+
+.aboutcontain:after {
+    bottom: -20px;
+}
+
+.about-text{width:48%;
+  }
+
+.about-img{width:48%; float:right; } 
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .about-text{width:100%;
+  }
+
+.about-img{ display:none; } 
+}
+
+.aboutcontain {
+    background: white;
+  width:100%;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 599px) {
+  .about-text{width:100%;
+  }
+
+.about-img{ display:none; } 
+}
+
+.aboutcontain {
+    background: white;
+  width:100%;
+  margin-top: 1px;
+}
+
+
 	
-/*Oh, what a pretty navagation*/
+/* Nav */
 
 	.navigation {
   list-style: none;
@@ -175,7 +218,7 @@ padding-top:2% ;
   }
 }
 
-/* Navagation over*/
+/* Misc */
 
 
 body {background-color: hsl(34, 53%, 82%);
@@ -450,3 +493,72 @@ p{font-family:arial}
 	width:25%;
 }
 }
+
+
+/*                                           ,╓╖╗╗╗╣╣▄╦,                          
+                                  ,╓╦╗╬╣╬▓▓▓▓▓▓▓▓▓▓█▓▓▌⌐                        
+                                ╣▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████▓▓µ                       
+                                ▀█████▓▓▓▓▓▓▓▓▓▓▓██████▓▓▄                      
+                                 ▀███████████▓▓▓▓█████████▓µ                    
+                                  ╙██████████████▓▓▓▓▓▓▓▓▓▓▓⌐                   
+                                    ▓████████████████▓▓▓▓▓▓▓▌                   
+                                     ╙█████████████████▓▓▓▓▓▓▒                  
+                                       ▐██████████████▓▓▓▓▓▓▓▓µ                 
+                                        ╫███████████▓▓▓▓▓▓▓▓▓▓▓⌐                
+                                        ╫███████████▓▓▓▓▓▓▓▓▓▓█▓⌐               
+                                       ▄████████████▓▓▓▓▓▓▓▓▓███▓               
+                                     ╓▓▓█████████████████▓▓▓▓▓███▓              
+                             ,,╗▄▓▓▓▓█▓███████████████████▓▓▓▓▓▓▓█▓⌐            
+                       ,╓╓╦╬▓▓▓▓█████████▀╠████████▓▓▓██████▓▓▓▓▓▓█▓            
+                  ╓╦╣▓▓▓▓▓▓▓▓▓▓███████▀`  ╫█████▓▓▓▓▓▓▓█▓▓████▓▓▓▓▓█▄,,╓▄       
+              ╥╬▓▓▓▓▓▓▓▓▓▓██████▓▀▀▀      ▓████▓▓▓▓▓▓▓▓█████▓▓█▓▓▓▓▓▓▓▓▀        
+          ,╗╣▓▓▓▓▓████████▀▀╙            ]█████▓▓▓▓▓▓▓▓█████▓▓▓▓▓▓▓██╨          
+  ╦▄▄▄▓▓▓▓▓▓███▀▀▀▀▀▀╙                   ║████▓▓▓▓▓▓▓███████▓▓▓▓▓███▓           
+  ╙╙▀▀████████▀                          ║███████▓▓▓████████▓▓▓█████▌           
+      ╙╙`╙▀▀                             '██████████████████████▓▓▓█Ö           
+                                          ╠█████████████████████▓▓▓▓▌⌐          
+                                         ,▓██████████████████████▓▓▓▓▓ç         
+                                        ╓▓███████████████████████▓▓▓▓▓▓▓╦       
+                                       ╬██████████████████████████▓▓▓▓▓▓▓µ      
+                                      ╫███████████████████████████▓▓▓▓▓▓█▓▄     
+                                     ▓████████████████████████████▓▓▓▓▓▓▓██µ    
+                                    ▓███████████████▀▀▀▓███████████▓▓▓▓▓▓▓█▌    
+                                   ╫█████████████▀▄▓███████████████▓▓▓▓▓▓▓▓█∩   
+                                 ▄▓██████████▀▐▄████████████████████▓▓▓▓▓▓▓█▄   
+                               ,▓███████▀▀    ╫██████▓██▓▓▀▀▀▀▀▀▀▀▓█▓▓▓▓▓███▌   
+                               ╣██████▒               ▓▓          "▓█▓▓▓▓███▀   
+                              ╓▓▓▓█████╕              ▓▓           `▓█▓▓▓███∩   
+                               ▓█▓▓▓████▄             ▓▌            └▓▓▓▓███    
+                                ▀██▓▓▓████Q          ▐▓▌            ╓▓▓▓▓██▌    
+                                 `▀▓███████▄         ╠╬▌           ║▓▓▓▓▓▓█∩    
+                                    ╙▀██▓███▓╕     ╓╬▓▌╬╬⌐        ╔▓▓▓▓▓▓▓█∩    
+                                       ╙▀▓████▌▄▄▄▄▓▓█▄╬╬▄,      ,▓▓▓▓▓▓███∩    
+                                          ▐▓███████████▒▓███▓▄,  ╬█▓▓▓▓▓██▌     
+                                        ╓▄█████████████▒▓███████▄▓▓▓▓▓▓███∩     
+                                      ╗▓█████████████▌╠╬▓█████████▓▓▓▓▓██▓      
+                                    ╓▓█████████▄▓██▓█▒╫╬▓▌█Ü▀████▓▓▓▓▓███∩      
+                                   ▄█████████████▓▓██Ö╠╬▓█▀  .▓██▓▓▓▓███▌       
+                                 .▓████▓█╨  ╙██▌ ╠▓█▓ ╠╬█▓   ╫▓▓█▓▓▓▓███∩       
+                                ╓▓███▓█▓▓,   ╙██µ╠▓▓█⌐▌╬█∩  ╬█▀▓▓▓▓▓████        
+                               ╓▓███▓██▄▒▀▄    ██╠╬▓▓⌐▌╫▌  ▄█╨╓█▓▓▓▓████▌       
+                               ▓███▓█▀ ╙▀▓▄▓▄   ▓▓╬╫█µ╬▌  ▄▌  ╠█▓▓▓██████∩      
+                              ║████▓▌     ╙▓█▓⌐ ²█▓▓█▄╬▓╦▓▌  ╓▓▓▓▓▓██████▌      
+                              ████▓█▀▄▄,     ▀█▄ ╠████╬▓█▌ ╓▓▓▓▓▓▓██▀█████      
+                             ╓████▓█▓▄▄▓▓▓▄▄   ╙█▓▓█▓█╬▓▓▄▓╨ ╓▓▓▓██▓▓█████      
+                             ╠███▓█▒    ╙╙▀▀▓▓▓▄▓▓████╬▓█▄▄▄▄▓▓▓▓█▓╝╝█████      
+                             ▓███▓█           ;▓▓████▌▒▒╬╬▌╙╠▓▓▓█▓   █████      
+                             ▓███▓█╦▄▄╣▀▓▓███▓▀▀▒▓█████▓▓▀▓▓▓▓▓▓█▒  ┌█████      
+                             ▓███▓█▄▄╣▀▀▀`'  ,▄▓▀▓█████▒▓▄µ╠▓▓▓██▓▀▀▓████▌      
+                             ▀███▓█▌      ,▄██▀╓▓█╢███▓▒▌ ▀█▓▓██╨╙▀▀█████▒      
+                             ]██████   ╓▄▓▓▓╨ ╓██Ü▓█▓██▒▓▌╠▓▓▓█▒   ▄████▓       
+                              ▓███▓█▌▓▀▀▓▓╨  ▄██∩╔█▌╫█▓╬▓█▓▓▓█▓▀▄ ╓█████∩       
+                              ╚██████▄▓▀   ,▓▓▓  ▓█▒]█▓╫▒█▓▓▓█∩ `▓█████▀        
+                               ▀████▓█╦   ╓▓▄▓  ╫▓▓ ]█▓╫Q╣▓▓█▀  ▄█████▀         
+                                ▓██████▄ ╬▓▄▓  ╓█▓▌ ]█▌╫▒▓▓▓█▄╓▓█████▌          
+                                 ▀███████▌▓▓   ▓▌▓∩  ▓▒╬▄▓█▓▓▓▓▓████▀           
+                                  ╙████████▄  ╓█╢▌   ▓▓███████████▀▀Θ           
+                                    ▀██████████▓▓▄,╓▄████████████╨              
+                                      ▀███████████████████████▀╨                
+                                        ╙▀█████████████████▀╙                   
+                                            ╙╙▀▀▓██▀▀▀▀▀  
+*/
