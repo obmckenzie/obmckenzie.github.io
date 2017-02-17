@@ -1,4 +1,5 @@
  /*By Allie lins - Suprise at the end*/
+ 
 /* Flexybox- Sexy box*/
 
 
@@ -100,6 +101,399 @@ padding-top:2% ;
 
 
 @media screen and (min-width: 800px) {
+ .aboutcontain {
+    background: white;
+    box-sizing: border-box;
+    /*height: 40px;*/
+    width: 100%;
+    position: relative;
+    padding: 20px;
+   margin-top:40px !important;
+}
+
+.aboutcontain:before, .aboutcontain:after {
+    content: "";
+    background: white;
+    height: 50px;
+    transform: skewY(2deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.aboutcontain:before{    
+    top: -20px;    
+}
+
+.aboutcontain:after {
+    bottom: -20px;
+}
+
+.about-text{width:48%;
+  }
+
+.about-img{width:48%; float:right; } 
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .about-text{width:100%;
+  }
+
+.about-img{ display:none; } 
+}
+
+.aboutcontain {
+    background: white;
+  width:100%;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 599px) {
+  .about-text{width:100%;
+  }
+
+.about-img{ display:none; } 
+}
+
+.aboutcontain {
+    background: white;
+  width:100%;
+  margin-top: 1px;
+}
+
+
+	
+/* Nav */
+
+	.navigation {
+  list-style: none;
+  margin: 0; 
+  background: hsla(5, 53%, 63%, 0.9);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+    
+      
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: hsl(5, 53%, 40%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/* Misc */
+
+
+body {background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px,                  
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 68%, 0.5) 120px, hsla(197, 62%, 68%, 0.5) 140px       
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px, 
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 68%, 0.5) 140px, hsla(197, 62%, 68%, 0.5) 160px       
+);
+  height:100%; 
+  margin :0;
+}
+
+.main {font-family: Raleway, sans-serif;}
+
+#quick{background:	hsl(12, 10%, 95%);}
+
+a{color:#140706;}
+
+p{font-family:arial}
+
+
+
+
+
+/* Boxes */
+
+.workGroup2 {
+	display:none;
+}
+.boxesInfo {
+	font-size:11px;
+	font-style:italic;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	letter-spacing:0px;
+	padding:2px 50px 0px 50px;
+	line-height:15px;
+}
+.popUpLeft {
+	width:57%;
+	float:left;
+	margin-right:5%;
+}
+.popUpLeft img {
+	width:100%;
+}
+.popUpRight {
+	width:38%;
+	float:right;
+}
+.popUpFull img {
+	width:100%;
+	max-width:850px;
+	text-align:center;
+}
+.popUpTitle {
+	color:#d76713;
+	font-size:32px;
+	line-height:35px;
+	margin-bottom:10px;
+}
+.popUpBtn {
+	background-color:#bdcbb6;
+	color:#ffffff;
+	text-align:center;
+	font-size:12px;
+	font-weight:500;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	padding:10px 5% 10px 5%;
+	width:90%;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.popUpBtn:hover {
+	background-color:#778472;
+	cursor:pointer;
+}
+.popUpRight a:link, .popUpFull a:link {color: #ffffff; text-decoration:none;}
+.popUpRight a:visited, .popUpFull a:visited {color: #ffffff; text-decoration:none;}
+.popUpRight a:hover, .popUpFull a:visited {color: #ffffff; text-decoration:none;}
+.popUpRight a:active, .popUpFull a:visited {color: #ffffff; text-decoration:none;}
+
+.popUpService {
+	font-size:13px;
+	font-style:italic;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	letter-spacing:0px;
+	padding:4px;
+	background-color:#EEEFE5;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.ltGreenBox {
+	width:25%;
+	float:left;
+	background-color:hsl(35, 91%, 65%);
+	text-align:center;
+	letter-spacing:3px;
+	color:#FFFFFF;
+	padding:55px 0px 25px 0px;
+	height:220px;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:16px;
+}
+.ltGreenBox img {
+	width:60%;
+	max-width:210px;
+	margin-bottom:10px;
+}
+.dkGreenBox {
+	width:25%;
+	float:left;
+	background-color:#778472;
+	text-align:center;
+	letter-spacing:3px;
+	color:#ffffff;
+	padding:55px 0px 25px 0px;
+	height:220px;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:16px;
+}
+.dkGreenBox img {
+	width:60%;
+	max-width:210px;
+	margin-bottom:10px;
+}
+.yellowBox {
+	width:25%;
+	float:left;
+	background-color:hsl(34, 53%, 82%);
+	text-align:center;
+	letter-spacing:3px;
+	color:#778472;
+	padding:55px 0px 25px 0px;
+	height:220px;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:16px;
+}
+.yellowBox img {
+	width:60%;
+	max-width:210px;
+	margin-bottom:10px;
+}
+.dkOrangeBox {
+	width:25%;
+	float:left;
+	background-color: hsl(5, 53%, 63%);
+	text-align:center;
+	letter-spacing:3px;
+	color:#333;
+	padding:55px 0px 25px 0px;
+	height:220px;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:16px;
+}
+.dkOrangeBox img {
+	width:60%;
+	max-width:210px;
+	margin-bottom:10px;
+}
+.ltOrangeBox {
+	width:25%;
+	float:left;
+	background-color:hsl(197, 62%, 68%);
+	text-align:center;
+	letter-spacing:3px;
+	color:#333;
+	padding:55px 0px 25px 0px;
+	height:220px;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:16px;
+}
+.ltOrangeBox img {
+	width:60%;
+	max-width:210px;
+	margin-bottom:10px;
+}
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+@media screen and (min-width: 100px) {
+.ltGreenBox {
+	width:100%;
+}
+.yellowBox {
+	width:100%;
+}
+.dkOrangeBox {
+	width:100%;
+}
+.ltOrangeBox {
+	width:100%;
+}
+}
+
+@media screen and (min-width: 600px) {
+.ltGreenBox {
+	width:50%;
+}
+.yellowBox {
+	width:50%;
+}
+.dkOrangeBox {
+	width:50%;
+}
+.ltOrangeBox {
+	width:50%;
+}
+}
+
+@media screen and (min-width: 800px) {
+.ltGreenBox {
+	width:33.3333%;
+}
+.yellowBox {
+	width:33.3333%;
+}
+.dkOrangeBox {
+	width:33.3333%;
+}
+.ltOrangeBox {
+	width:33.3333%;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.ltGreenBox {
+	width:25%;
+}
+.yellowBox {
+	width:25%;
+}
+.dkOrangeBox {
+	width:25%;
+}
+.ltOrangeBox {
+	width:25%;
+}
+}@media screen and (min-width: 800px) {
  .aboutcontain {
     background: white;
     box-sizing: border-box;
