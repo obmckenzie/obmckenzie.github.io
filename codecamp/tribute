@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Allison</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <style>
+      body {margin-top:60px;}
+.jumbotron {background-color:#515356; color:white;}
+.caption {background-color:#949699; color:black;}
+#timeline{padding-top:25px;}
+
+      </style>
+
+  
+</head>
+
+<body>
+  
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-xs-6 col-md-12">
+				<h1 class="text-center">Tupac Shakur</h1>
+				<h2 class="text-center"><i>Redefining a genre</i></h2>
+				<div class="thumbnail">
+					<img src="https://obmckenzie.github.io/images/P8150795.jpg" alt="Tupac Shakur" alt="here is an image of Tupac Shakur" style="width:100%">
+						<div class="caption text-center">Here is an image of Tupac Shakur						</div>
+				</div>
+				<div class="row">
+				  <div class="col-xs-6 col-md-3"></div>
+				  <div class="col-xs-6 col-md-6" id="timeline">
+						<h3>Here is a timeline of Tupac Shakur's life:</h3><ul >
+						<li>1971 - Born in East Harlem NY as Parish Crooks</li>
+						<li>1972 - Renamed Tupac Amar II</li>
+						<li>1986 - Family moved to Balitmore Maryland</li>
+						<li>1987 - Began Recording Early Work</li>
+						<li>1988 - Family moved to Marin City California</li>
+						<li>1989 - Started classes with <a href="https://en.wikipedia.org/wiki/Leila_Steinberg">Leila Steinberg</a></li>
+						<li>1990 - Started as backup dancer/roadie for Digital Underground</li>
+						<li>1991 - Debuted with "Same Song"</li>
+						<li>1991 - November Debuted with solo album: 2Pacalypse Now</li>
+						<li>1993 - Released second album: Strictly 4 My N.I.G.G.A.Z</li>
+						<li>1993- Formed the group: Thug Life</li>
+						<li>1995- Third album: Me Agaisnt the World</li>
+						<li>1996 - All Eyez on Me released</li>
+						<li>1996 - Shot to death in Las Vegas Nevada</li>
+					</ul>
+						
+					<blockquote>
+						</div>
+					<div class="col-xs-6 col-md-2"></div>
+				  <div class="col-xs-6 col-md-8" id="timeline">
+						<h3>"These artists were brave, wise and smart – wickedly smart. Tupac had so many sides. He was unafraid to write about his vulnerabilities."</h3><footer><cite>- Chuck Phillips, journalist</cite></footer>
+					</blockquote>
+					<h3>If you have more time you should read more about Tupac and his life on <a href="https://en.wikipedia.org/wiki/Tupac_Shakur">this Wikipedia entry</a>.</h3>
+				  <div class="col-xs-6 col-md-2"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+	 <footer class="text-center">
+    <hr>
+    <p>Written and coded by <a href="https://www.freecodecamp.org/obmckenzie" target="_blank">Obmckenzie</a>.</p>
+  </footer>  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+</body>
+</html>
