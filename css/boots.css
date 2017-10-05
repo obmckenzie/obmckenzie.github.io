@@ -1,0 +1,43 @@
+.navbar {background-color: #212D41; padding:10px;}
+.navbar a {color:white;}
+.img-thumbnail {max-width:auto;}
+
+body {background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px,                  
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 68%, 0.5) 120px, hsla(197, 62%, 68%, 0.5) 140px       
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px, 
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 68%, 0.5) 140px, hsla(197, 62%, 68%, 0.5) 160px       
+);
+  height:100%; 
+  margin :0;
+	font-weight:200;
+}
+
+body p{font-size:14pt; font-family: 'Roboto', sans-serif;}
+body h1 {font-family: 'Roboto', sans-serif; text-transform:lowercase}
+body h2 {font-family: 'Roboto', sans-serif; font-size:14pt;}
+
+.btn-primary {background-color:#8B8691;color:#A6926F; border: solid #212D41; font-family: 'Kalam', cursive; text-transform:uppercase; }
+.btn-success {background-color:#A6926F;color:#212D41; border: solid #A6926F; font-family: 'Roboto', sans-serif; text-transform:uppercase}
+
+#about {background-color:#212D41; color:#fff;  padding: 20px 10px;}
+#rounded{max-width:200px;border-radius: 100%;}
+#folio {background-color:#e3e5e8; padding: 20px 0px; }
+#folio img{border:1px solid #8B8691;border-radius:5%; max-width:300px;}
+#folio p{font-size:9pt; color:#8B8691; font-weight:200}
+#folio a{font-size:12pt; color:#8B8691; font-weight: 500}
+#folio-row {padding: 20px 0px;}
+#contact {background-color:#e3e5e8; padding: 20px 0px; font-weight:400}
+form input {border: none;background: transparent;border-bottom: 1px solid #5E3A54;outline: none;padding:5px 0px; font-size:20pt;}
+#contact-form{padding:0px 25px;}
+#send {}
+
