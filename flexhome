@@ -1,0 +1,130 @@
+
+<head>
+
+  <!-- The Basics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Allison Lins; Developer, Designer, Music-liker </title>
+  <meta name="description" content="13 years of experience in web design and development, ecommerce, seo, omnichannel. Let me build your website! ">
+  <meta name="author" content="Allison Lins">
+
+
+
+  <!-- CSS/Fonts/Babies
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/flexbox.css">
+ <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+	
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+ 
+</head>
+ 
+	<body>
+
+<!-- Navagation !-->
+<ul class="navigation">
+  <li><a href="#">home</a></li>
+  <li><a href="#about">about</a></li>
+  <li><a href="#work">work</a></li>
+  <li><a href="http://obmckenzie.github.io/CS/landing.html">cases</a></li>
+  <li><a href="#contact">contact</a></li>
+</ul>
+<!-- Navagation End !-->
+
+<!-- Header !-->
+<div class="main">
+<div class="flex-container-hello" id="hello">
+    <div class="flex-item-hello">
+      <h1 style="font-family: 'Alex Brush', cursive;font-size:75px; line-height:.5em">simple. fun.<br><span style="font-family:Raleway, sans-serif;font-size:20pt;">websites designed for you, not by template</span></h1>
+
+	</div>
+</div>
+<!-- Header End !-->
+ 
+ 
+<div class="hellooffer" id="quick">
+    <div class="helloofferinside">
+      <h2> My name is <span style="font-family: 'Alex Brush', cursive;font-size:22pt;font-weight:600;">Allie</span>. I design functional & fun websites. No project is too small, here is just a few of the services I offer: </h2>
+      
+    </div>
+
+<div class="offer" id="quick" >
+          <div class="offer1"><img src="http://obmckenzie.github.io/images/idea.png" ><h4>Design</h4><p>My designs start with you. What is the purpose of the site? What do you want to accomplish? We let your needs lead the way.</p>  </div>
+          <div class="offer2"> <img src="http://obmckenzie.github.io/images/scissor.png" ><h4>Development</h4><p>Responsive sites are here to stay. I'll make sure your vision easily displays on all platforms.</p> </div>
+          <div class="offer3"> <img src="http://obmckenzie.github.io/images/art.png" ><h4>SEO</h4><p>If people can't find you thats no good. I'll ensure you can be found by all the search engines.</p> </div>
+  </div>      
+      
+</div>
+  
+  
+ <!--  About !-->
+<div id="hello" >
+	<div class="aboutcontain">
+		<div class="about-img" id="beartooth"><img src="http://obmckenzie.github.io/images/beartooth.jpg" style="width:100%"></div>
+			<div class="about-text" style="padding:1% 5%" >
+		  <h2>About Me</h2>
+				<p>I love to dabble my fingers into everything that has to do with the web. Across my career I've been a graphic design, a content manager, a content developer, web developer, SEO expert, and project manager. I absolutely love the feeling  when I solve a complicated question or find a way to product exactly what my client is looking for.<br><br> Currently, I work at <a href="http://www.luxottica.com">Luxottica</a> as a Front End Web Developer for the <a href="www.targetoptical.com">Target Optical</a> ecommerce site. I work to publish content changes, perfom product maintenance, and make recommendations for UX/UI updates. I also assist  with the day to day upkeep of <a herf="www.searsoptical.com")Sears Optical</a><br><br> In my spare time I like to develop websites (like this one) in order to expand my skillset. How can I help <i>you?</i> </p>
+				
+				
+	  <p> Social Media:
+	  <a href="https://www.pinterest.com/obmckenize/"><img src="http://obmckenzie.github.io/images/Pinterest144px.png" style="height:25px;"></a>
+					<a href="https://twitter.com/obmckenzie"><img src="http://obmckenzie.github.io/images/twitter.png" style="height:25px;"></a> 
+					<a href="https://www.instagram.com/allisonlins/"><img src="http://obmckenzie.github.io/images/instagram.png" style="height:25px;"></a> 
+					<a href="https://www.facebook.com/alins"><img src="http://obmckenzie.github.io/images/FB-f-Logo__blue_144.png" style="height:25px;"></a>
+					<a href="http://codepen.io/obmckenzie/"><img src="http://obmckenzie.github.io/images/codepen.png" style="height:25px;"></a></p>
+	  
+	  
+	  
+			</div>
+				
+	</div>
+</div>
+<!-- About End !-->
+  
+    </div>
+ 
+ <!-- Work Links !-->
+ 
+    <div id="work">
+<div class="workGroup1" style="margin-top:50px;">
+
+<a href="http://obmckenzie.github.io/bar/index.html">
+	<div class="yellowBox">
+    	<img src="http://obmckenzie.github.io/images/bar.jpg" alt="The Rook" class="grow"><br>
+        The Rook Concept<br>
+        <div class="boxesInfo" style="color:#d76713">Web Design / Development / Responsive Development</div>
+	</div>
+</a>
+
+<a href="#">
+	<div class="ltGreenBox">
+    	<img src="http://obmckenzie.github.io/images/homepage.jpg" alt="Homepage" class="grow"><br>
+        allison lins<br>
+        <div class="boxesInfo" style="color:#535C4F;">Web Design / Development / Responsive Development</div>
+	</div>
+</a>
+
+<a  href="http://rfvrnj.yolasite.com">
+	<div class="ltOrangeBox">
+    	<img src="http://obmckenzie.github.io/images/rfvrnj.jpg" alt="Rollin' Fast Victory Riders of North Jersey" class="grow"><br>
+        Rollin' Fast Victory Riders<br> of North Jersey<br>
+        <div class="boxesInfo" style="color:#813107">Web Design </div>
+	</div>
+</a>
+
+<a href="http://www.targetoptical.com">
+	<div class="dkOrangeBox">
+    	<img src="http://obmckenzie.github.io/images/to.jpg" alt="Target Optical" class="grow"><br>
+        Target Optical<br>
+        <div class="boxesInfo" style="color:#fff;">Content Management / Management</div>
+	</div>
+</a>
+
+    </div></div>
+ 
+</body>
