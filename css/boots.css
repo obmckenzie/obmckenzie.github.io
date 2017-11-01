@@ -33,3 +33,21 @@ body h2 {font-family: 'Roboto', sans-serif; font-size:14pt;}
 .btn-primary {background-color:#8B8691;color:#A6926F; border: solid #212D41; font-family: 'Kalam', cursive; text-transform:uppercase; }
 .btn-success {background-color:#A6926F;color:#212D41; border: solid #A6926F; font-family: 'Roboto', sans-serif; text-transform:uppercase}
 
+
+
+/* form */
+#contact {background-color:#e3e5e8; padding: 20px 0px; font-weight:400}
+form input {border: none;background: transparent;border-bottom: 1px solid #5E3A54;outline: none;padding:5px 0px; font-size:20pt;}
+#contact-form{padding:0px 25px;}
+#send {}
+
+/* jumbo/about */
+.jumbotron {background-color:#2A3A53; color:#fff;   }
+#rounded{max-width:175px;border-radius: 100%;}
+
+/* portfolio */
+#folio {background-color:#e3e5e8; padding: 20px 0px; }
+#folio img{border:1px solid #8B8691;border-radius:5%; max-width:300px;height:150px;}
+#folio p{font-size:9pt; color:#8B8691; font-weight:200}
+#folio a{font-size:12pt; color:#8B8691; font-weight: 500}
+#folio-row {padding: 20px 0px;}
