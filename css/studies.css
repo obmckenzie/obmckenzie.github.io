@@ -1,0 +1,35 @@
+/* Nav */
+.navbar {background-color: #212D41; padding:10px;}
+.navbar a {color:white;}
+.img-thumbnail {max-width:auto;}
+.active {font-weight:600}
+
+/* Body */
+body {background-color: hsl(34, 53%, 82%);
+background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px,                  
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 68%, 0.5) 120px, hsla(197, 62%, 68%, 0.5) 140px       
+  ),
+repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 68%, 0.5) 5px, hsla(197, 62%, 68%, 0.5) 10px, 
+  hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+  hsla(197, 62%, 68%, 0.5) 40px, hsla(197, 62%, 68%, 0.5) 50px, hsla(197, 62%, 68%, 0) 50px, hsla(197, 62%, 68%, 0) 60px,                
+  hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+  hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+  hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 68%, 0.5) 140px, hsla(197, 62%, 68%, 0.5) 160px       
+);
+  height:100%; 
+  margin :0;
+	font-weight:200;
+}
+body p{font-size:14pt; font-family: 'Roboto', sans-serif;}
+body h1 {font-family: 'Roboto', sans-serif; }
+body h2 {font-family: 'Roboto', sans-serif; font-size:14pt;}
+.pd {padding-top:20px;}
+
+/* Buttons */
+.btn-primary {background-color:#8B8691;color:#A6926F; border: solid #212D41; font-family: 'Kalam', cursive; text-transform:uppercase; }
+.btn-success {background-color:#A6926F;color:#212D41; border: solid #A6926F; font-family: 'Roboto', sans-serif; text-transform:uppercase}
+
