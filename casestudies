@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Case Studies | Allison Lins</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+   <nav class="navbar sticky-top navbar-expand-md">
+      <a class="navbar-brand" href="#">Allison Lins</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://obmckenzie.github.io/index.html#folio">portfolio</a>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link active" href="https://obmckenzie.github.io/casestudies.html">case studies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/open?id=0BwXMpNE7WuGQV1BsckZBX2dSTUd2Tl8wSF82Q1hNcHo5WTRZ">resume</a>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://obmckenzie.github.io/index.html#contact">contact</a>
+          </li>
+        </ul>
+  
+      </div>
+	</nav>
+	<!-- NAV END -->
+
+
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="text-center">Target Optical Eye Exam Overhaul</h1>
+				
+				
+				<div class="row" >
+					<div class="col-12"><h3>Overview</h3></div>
+				</div>
+
+				<div class="row">
+				  	<div class=" col-1"></div>
+					<div class="col-10">
+						<a href="www.targetoptical.com/to-us/locations">Target Optical</a>'s eye exam flow is functional and does what it needs to do on a very basic level. Users can search for a location near them, they can find an exam at that location, they can get some very, very basic information like; location, store phone number, and store hours.</p>
+				 	</div>
+					<div class="col-1"></div>
+				</div>
+				
+				<div class="row">
+					<div class="col-12"><h3>Issues</h3></div>
+				</div>
+				<div class="row">
+				 	<div class="col-1"></div>
+					<div class="col-10">
+						<h4>Issues:</h4>
+						  <ol>
+								<li> <b>Too Empty</b>: There is a lot of wased space on the pages in the flow; too much white space. It leaves the user feeling a little empty, as if there are parts of the site that are not loading. </li>
+								<li> <b>Lacking Information</b>: The amount of information that is given to the user is low. It doesn't give the user any confidence. Target is all about making their customers feel like they are in a comfortable space. </li>
+								<li><b>Appointment Availability is several steps deep</b>: Currently, to look at the available times for a location the user must select a location, then select the day they want, then click the time arrows to see if the store has the time they want available. If there is nothing avialable they must either select a different day or go back to step 1, with no guarantee that the other location will have that time either. </li>
+						  </ol>
+					</div>
+					<div class="col-1"></div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-12"><h3>Solutions</h3></div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h5>Search Results [before]</h5></div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-3"><a href="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017base.png"><img class="img-thumbnail float-right img-fluid" src="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017base.png"></a></div>
+							<div class="col-9"><h6>Current look of the flow</h6>
+								<ul>
+									<li>Results feel short</li>
+									<li>Unable to adjust width of search area, no indication of how big an area its searching</li>
+									<li>Unable to filter results or indicate preferences (language, new patient, contact lens specialty, pediatrics, ect)</li>
+									<li>Unable to see availability of exams, only if they are not allowing booking online</li>
+									<li>Map is small, but takes up way to much of the page</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h5>Search Results [after]</h5></div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-3"><a href="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step2.png"><img class="img-thumbnail float-right img-fluid" src="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step2.png"></a></div>
+							<div class="col-9"><h6>Proposed changes</h6>
+								<ul>
+									<li>Complete overhaul of result presintation</li>
+									<li>Reduce the whitespace</li>
+									<li>Expanded the displayed information</li>
+									<li>Adjusted the map to be informative but less obtrustive</li>
+									<li>Brough the availability to first step, giving users the important info right away</li>
+									<li>Added ways to adjust/filter search</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h5>Close up: Search Filters</h5></div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-3"><a href="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step2_cal.jpg"><img class="img-thumbnail float-right img-fluid" src="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step2_cal.jpg"></a></div>
+							<div class="col-9"><h6>Proposed changes</h6>
+								<p>I always feel like giving the user the ability to narrow their search is a good thing. When I searched for an exam  I wanted to be able to refine my results that fit to me. Since I couldn't even tell what the radius was, I wanted to try to solve for that.</p>
+								<ul>
+									<li><b>Filters</b>: Added 3 basic filters are shown but can be expanded if the map is moved down to accomidate more ways to filter. The results below the filters will default to nearest location but based on the filter choices (if any) the results will adjust.</li>
+									<li><b>Exam Type</b>: This would be a drop down menu with choices that would sort results. For example, if the user choose "new patient" only the doctors accepting new patients would display. Options appearing the the dropdown would be flexible and could be dictated based on business needs. For example; one of the options should be "urgent" and the results would then adjust to show only the doctors and appointment times available for urgent type appointments.</li>
+									<li><b>Patient wears contact lenses</b>: This was spereated out because contact lens exams require more time. If a user clicks this box the exam times displayed for the doctors should adjust for the extended time allowed.</li>
+									<li><b>Distance</b>: This shoud appear on any and all location searches. Users want to be able to dictate their search area. Some are okay travelling 50 miles for the time/item they want and for others anything more then 5 miles away is a hassle. </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h5>Close up: Appointment Times</h5></div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-3"><a href="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step2_moreapt.jpg"><img class="img-thumbnail float-right img-fluid" src="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step2_moreapt.jpg"></a></div>
+							<div class="col-9"><h6>Proposed changes</h6>
+								<p>I wanted to cover the idea that the doctor had a lot of availability. What would that look like? </p>
+								<ul>
+									<li>Available times would apear in configurable amounts</li>
+									<li>Initial glance woud show 4 available times per day, with a "more" at the bottom to indicate more times</li>
+									<li>When "more" was selected the box would exand downwards, showing 10 total times</li>
+									<li>If more times were available beyond the 10, "more" would appear again, and the box would expand again</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h5>Booking [before]</h5></div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-3"><a href="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/currectexam.png"><img class="img-thumbnail float-right img-fluid" src="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/currectexam.png"></a></div>
+							<div class="col-9"><h6>Current</h6>
+								
+								<ul>
+									<li>Lots of empty space</li>
+									<li>Only here do we see the open appointments</li>
+									<li>Standard Form, bit boring, looks really long</li>
+									<li>No header banner, no footer, complte loss of branding</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h5>Booking [after]</h5></div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-3"><a href="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step3_overall.jpg"><img class="img-thumbnail float-right img-fluid" src="https://obmckenzie.github.io/case%20studys/to%20eye%20exams/eeyexamsjan2017step3_overall.jpg"></a></div>
+							<div class="col-9"><h6>Proposed changes</h6>
+								<p></p>
+								<ul>
+									<li>Form is much more condense, gives the ense that it will not take long to fill out</li>
+									<li>Added the Header/Footer back into the page to give it the brands feel, otherwise You might have been on a fake or phising site</li>
+									<li> Added more to the doctor/location block</li>
+										<ul>
+											<li>Carried through the doctors picture to give it a connected feel. I want to see the person who is going to be doing my exam</li>
+											<li> added important info like services offered and potential fees.</li>
+											<li>Potential Idea: Add DR reviews here to add more comfort</li>
+										</ul>
+									<li>Updated flow icons to match steps a bit better</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pd">
+					<div class="col-12"><h3>Conclusion</h3></div>
+				</div>
+
+				<div class="row">
+				  	<div class=" col-1"></div>
+					<div class="col-10">
+						<p>My goal in this overhaul was to make the eye exam flow a bit more user friendly, but also to increase the feeling of connection and comfort. People go to Target because they feel like it's a comfortable space, the eye exam flow felt much more clinical and detatched. I aimed to resolve that as well as provided more indepth functionality.</p>
+				 	</div>
+					<div class="col-1"></div>
+				</div>
+				
+				
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+</body>
+</html>
