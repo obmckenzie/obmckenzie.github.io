@@ -2,6 +2,7 @@
 .navbar {background-color: #212D41; padding:10px;}
 .navbar a {color:white;}
 .img-thumbnail {max-width:auto;}
+.active {font-weight:600}
 
 /* Body */
 body {background-color: hsl(34, 53%, 82%);
