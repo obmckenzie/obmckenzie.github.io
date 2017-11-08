@@ -5,6 +5,17 @@
     <title>Allison Lins; Developer, Designer, Music-liker </title>
   <meta name="description" content="13 years of experience in web design and development, ecommerce, seo, omnichannel. Let me build your website! ">
   <meta name="author" content="Allison Lins">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109401885-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109401885-1');
+</script>
+
       <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="/images/favicon.png">
@@ -13,6 +24,7 @@
    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Kalam:700|Roboto'>
    <link rel="stylesheet" href="css/boots.css">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   
 </head>
@@ -20,69 +32,64 @@
    
 
 <body>
-     <nav class="navbar sticky-top navbar-expand-md">
-      <a class="navbar-brand" href="#">Allison Lins</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="https://obmckenzie.github.io/index.html#folio">portfolio</a>
-          </li>
-					<li class="nav-item">
-            <a class="nav-link" href="https://obmckenzie.github.io/casestudies.html">case studies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://drive.google.com/open?id=0BwXMpNE7WuGQV1BsckZBX2dSTUd2Tl8wSF82Q1hNcHo5WTRZ">resume</a>
-          </li>
-					<li class="nav-item">
-            <a class="nav-link" href="https://obmckenzie.github.io/index.html#contact">contact</a>
-          </li>
-        </ul>
-  
-      </div>
-	</nav>
+
+
+<nav class="navbar navbar-expand-md sticky-top">
+  <a class="navbar-brand" href="#">Allison Lins</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link active" href="#portfolio">portfolio<span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          case studies
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="casestudies.html">Target Optical Eye Exams</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://drive.google.com/open?id=0BwXMpNE7WuGQV1BsckZBX2dSTUd2Tl8wSF82Q1hNcHo5WTRZ">resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">contact<span class="sr-only">(current)</span></a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
 	<!-- NAV END -->
-	<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid jhead">
   <div class="container">
 		<img class="img-thumbnail float-right img-fluid"  id="rounded" src="https://obmckenzie.github.io/images/portrait2.JPG" > 
-    <h1 class="display-6">Web Developer - UX Champion - SEO</h1>
+    <h1 class="display-6">Developer/Designer, SEO, Jack o' Trades</h1>
     <p class="lead">Experienced Front-End Developer with more then 13 years in marketing and SEO-optimized e-commerce systems. Extensive knowledge of modern front-end frameworks and CMS, with a talent for bridging the gap between user experience and marketing objectives</p>
   </div>
 </div>
 <div class="container">
-	<!-- ABOUT -->
-	<!--	<div class="row"> 
-			<div class="col-1"></div>
-			<div class="col-10" id="about" name="about">
-				<img class="img-thumbnail float-right img-fluid"  id="rounded" src="https://obmckenzie.github.io/images/image1.JPG" > <p>Experienced Front-End Developer with more then 13 years in marketing and SEO-optimized e-commerce systems. Extensive knowledge of modern front-end frameworks and CMS, with a talent for bridging the gap between user experience and marketing objectives. </p>
-				<hr>
-				<p>Web Developer - UX Champion - SEO</p>
-		</div>
-			<div class="col-1"></div>
-		</div> -->
-	<!-- ABOUT END -->
-	
 	<!-- PORTFOLIO -->	
 		<div class="row"> <!-- row #2 -->
 			<div class="col-1"></div>
 			<div class="col-10 text-center" id="folio" name="portfolio">
-				<h1>Portfolio</h1>
+				<h1>check me out</h1>
 				<div class="row" id="folio-row"> <!-- Folio Row #1 -->
 						<div class="col" >
 
-							<a href="https://obmckenzie.github.io/bar/index.html"><img src="https://obmckenzie.github.io/images/bar.jpg" alt="The Rook" class="img-fluid" ><br>The Rook Concept<br><p>Design/Development - rebuild challenge</p></a>
+							<a href="https://obmckenzie.github.io/bar/index.html"><img src="https://obmckenzie.github.io/images/bar.jpg" alt="The Rook" class="img-fluid" ><br>The Rook Concept<br><p>Concept/Design/Development<br>Rebuild challenge- Fun</p></a>
 						</div>
 						<div class="col" >
-							<a href="http://www.53.com"><img src="https://obmckenzie.github.io/images/FifthThird.png" alt="Fifth Third" class="img-fluid"><br>Fifth Third Bank<br><p>Content Management (AEM)</p></a>
+							<a href="http://www.53.com"><img src="https://obmckenzie.github.io/images/FifthThird.png" alt="Fifth Third" class="img-fluid"><br>Fifth Third Bank<br><p>Content Management/Developer (AEM)</p></a>
 						</div>
 				</div> <!-- Folio Row #1 end -->
 						
 				<div class="row" id="folio-row"> <!-- Folio Row #2 -->
 								
 						<div class="col">
-							<a href="https://obmckenzie.github.io/index.html"><img src="https://obmckenzie.github.io/images/oldhomepage.png" class="img-fluid"><br>Personal Landing<p>Concept/Design/Development - built  using flexbox css</p></a>
+							<a href="https://obmckenzie.github.io/index.html"><img src="https://obmckenzie.github.io/images/oldhomepage.png" class="img-fluid"><br>OLD Personal Landing<p>Concept/Design/Development<br>Fun with Flexbox</p></a>
 				   		</div>
 						
 						<div class="col">
@@ -92,7 +99,7 @@
 
 				<div class="row" id="folio-row"> <!-- Folio Row #3 -->
 						<div class="col">
-							<a href="https://codepen.io/obmckenzie/full/qPEEqm/"><img src="https://obmckenzie.github.io/images/cassini-tribute.png" class="img-fluid" ><br>Tribute Exercise<p>Design/Development - built for coding class</p></a>
+							<a href="https://codepen.io/obmckenzie/full/qPEEqm/"><img src="https://obmckenzie.github.io/images/cassini-tribute.png" class="img-fluid" ><br>Tribute Exercise<p>Design/Development<br>Fun - Learning</p></a>
 				    	</div>
 
 						<div class="col"><a  href="http://rfvrnj.yolasite.com"><img src="https://obmckenzie.github.io/images/rfvrnj.jpg" alt="Rollin' Fast Victory Riders of North Jersey" class="img-fluid"><br>RFVR Motorcycle Club
@@ -109,44 +116,50 @@
 			<div class="col-1"></div>
 		</div><!-- row #2 end-->
 	<!-- PORTFOLIO END -->
+</div> 
+<!-- CONTACT -->
+<div class="jumbotron jumbotron-fluid contact">
+	<div class="container">
+		<div class="row"> <!-- row #3 -->
 
-	<!-- CONTACT -->
-	<div class="row"> <!-- row #3 -->
-			<div class="col-1"></div>
-			<div class="col-10 text-center" id="contact" name="contact">
-				<h1>contact</h1>
-									<div class="row" id="contact-form"> <!-- contact Row #1 -->
-						<div class="col text-left">
-							<form action="mailto:allison.lins@gmail.com" method="post" enctype="text/plain">
-								<input type="text" placeholder="Name"><br>
-								<input type="text" placeholder="Email"><br>
-								<input type="text" placeholder="Phone Number"><br>
-								<input type="text" placeholder="Message">
-								<br><br>
-<input type="submit" value="Send" class="btn btn-success">
-<input type="reset" value="Reset" class="btn btn-success">
-</form></div>
-						<div class="col text-left">
-							<p>Want to know more, or mabye get a copy of my resume? Drop me a line, I answer all sorts of questions about motorcycles, myself, horses, which video I think is the best and why it's currently Witcher 3: The Wild Hunt. I might even share my tales from that time I took a trip across the country on a motorcycle. Just drop me a line.
-						</p>
-							<p>I promise to reply A.S.A.P.</p>
-							 <p> Social Media:
-	  <a href="https://www.pinterest.com/obmckenize/"><img src="https://obmckenzie.github.io/images/Pinterest144px.png" style="height:25px;"></a>
-					<a href="https://twitter.com/obmckenzie"><img src="https://obmckenzie.github.io/images/twitter.png" style="height:25px;"></a> 
-					<a href="https://www.instagram.com/allisonlins/"><img src="https://obmckenzie.github.io/images/instagram.png" style="height:25px;"></a> 
-					<a href="https://www.facebook.com/alins"><img src="https://obmckenzie.github.io/images/FB-f-Logo__blue_144.png" style="height:25px;"></a>
-					<a href="https://codepen.io/obmckenzie/"><img src="https://obmckenzie.github.io/images/codepen.png" style="height:25px;"></a></p>
+				<div class="col-12 text-center" id="contact" name="contact">
+					<h1>reach out</h1>
+						<div class="row"> 
+							<div class="col-8 text-left">
+								<p>Want to know more? Drop me a line, I answer all sorts of questions about motorcycles, myself, horses, which video I think is the best and why it's currently Witcher 3: The Wild Hunt. I might even share my tales from that time I took a trip across the country on a motorcycle. <a href="mailto:allison.lins@gmail.com?Subject:Your%20Website%20Rocks!" target="_top">Just drop me a line.</a>
+								</p>
+
+								<!-- <form action="mailto:allison.lins@gmail.com" method="post" enctype="text/plain">
+									<div class="form-group">
+										<input type="text" placeholder="Name"><br>
+										<input type="text" placeholder="Email"><br>
+										<input type="text" placeholder="Phone Number"><br>
+										<input type="text" placeholder="Message">
+										<br><br>
+										<input type="submit" value="Send" class="btn btn-success">
+										<input type="reset" value="Reset" class="btn btn-success">
+									</div>
+								</form> -->
 							</div>
-					</div> <!-- Contact Row #1 end -->
-				
-		</div>
-			<div class="col-1"></div>
-		</div><!-- row #3 end-->
-<!-- CONTACT END -->
-	
-</div> <!-- container  -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+							<div class="col-4 text-left">
+								<!--<p>Want to know more? Drop me a line, I answer all sorts of questions about motorcycles, myself, horses, which video I think is the best and why it's currently Witcher 3: The Wild Hunt. I might even share my tales from that time I took a trip across the country on a motorcycle. Just drop me a line.</p>-->
+								 <p> <b>Social Media:</b><br>
+									Twitter: <a href="https://twitter.com/obmckenzie"><img src="/images/twitter.png" style="height:25px;"></a> <br>
+									Instagram: <a href="https://www.instagram.com/allisonlins/"><img src="/images/instagram.png" style="height:25px;"></a> <br>
+									Facebook: <a href="https://www.facebook.com/alins"><img src="/images/FB-f-Logo__blue_144.png" style="height:25px;"></a><br>
+									CodePen: <a href="https://codepen.io/obmckenzie/"><img src="/images/codepen.png" style="height:25px;"></a><br>
+									Free Code Camp: <a href="https://www.freecodecamp.org/obmckenzie"><img src="/images/freecodecamp.png" style="height:25px;"></a>
+								</p>
+								</div>
+						</div> <!-- Contact Row #1 end -->
+					
 
+	</div>
+</div>
+<!-- CONTACT END -->
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
   
 </body>
 </html>
